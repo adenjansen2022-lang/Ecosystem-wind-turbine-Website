@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lessons - Farm4Wind</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body class="LessonBody">
+    <!------------- Navigation Bar --------------->
+    <header>
+        <img src="./Images/Logo.png" alt="logo" class="logo">
+        <h1 class="name">Farm4Wind</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="LessonHome.html">Lessons</a></li>
+                <li class="active"><a href="quizzes.html">Quizzes</a>
+                <ul class="QuizDropdown">
+                 <li> <a href="Quiz1.html" >Quiz1</a>  </li> 
+                 <li> <a href="Quiz2.html" >Quiz2</a>   </li>
+                 <li> <a href="Quiz3.html" >Quiz3</a>  </li>
+                 <li> <a href="Quiz4.html" >Quiz4</a>  </li>
+                 <li> <a href="Quiz5.html" >Quiz5</a>  </li> 
+                 <li> <a href="Quiz6.html" >Quiz6</a>  </li>
+                </ul>
+                </li>
+                <li><a href="Resources.html">Resources</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Divide page into seperate body-->
+    <div class="lessonBody2">
+         <!--Second navigation bar for the lessons-->
+        <nav id="lessonNavigation">
+            <h2 style="font-weight: bold;">Select a lesson</h2>
+            <button onclick="document.location='lesson1.html'">1. Intoduction to renewable energy</button>
+            <button onclick="document.location='lesson2.html'">2. What is Wind energy</button>
+            <button onclick="document.location='lesson3.html'">3. Benefits of Wind Farming</button>
+            <button onclick="document.location='lesson4.html'">4. Economic benefits</button>
+            <button onclick="document.location='lesson5.html'" id="activelesson">5. Challenges and Limitations</button>
+            <button onclick="document.location='lesson6.html'">6. Future of Wind Energy</button>
+        </nav>
+        
+        <!------------- Main --------------->
+        <main class="LessonsPage">
+           <article class="article5">
+            <img src="./Images/chalenges.jpeg" alt="Image that shows chalenges and limitations" class="lessonHeadingImage">
+                <fieldset>
+                    <legend class="mainH1">Challenges and Limitations</legend>
+                    <p>
+                       
+                        The future of wind energy hinges on overcoming certain challenges. Due to the irregular nature of wind, as wind does not blow constantly creating unpredictable 
+                        and unreliable energy generation, flexible backup systems and forecasting tools will be required (Gonzalez-Aparicio et al., 2017). These backup systems often rely
+                        on fossil fuels, undermining the impact of green energy. Large scale deployment also requires significant investment, optimal sites being remote which increases 
+                        logistical costs (Edghill, 2025) and reform to simplify land use conflicts (IRENA,2023). 
+                        <br>
+                        A major limitation is the effect of wind turbines on natural life, disrupting bird and bat populations through collisions and displacement (Edghill, 2025). Visually large wind farms, 
+                        alongside the low noise they emit, can lead to resistance from populations nearby, leading to delays in development. 
+                    </p>
+                </fieldset>
+            </article>
+        </main>
+    </div>
+
+
+    <!------------- Footer --------------->
+    <footer>
+        <section>
+            <article class="column1">
+               <h4>
+                    Contact Us
+                </h4>
+                <p> info@farmwind.co.za</p>
+            </article>
+
+            <article class="column2">
+                <h4>
+                    Quick Links
+                </h4>
+                    <ul class="footerlinks">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="LessonHome.html">Lessons</a></li>
+                        <li><a href="quizzes.html">Quizzes</a></li>
+                        <li><a href="Resources.html">Resources</a></li>
+                        <li><a href="Contact.html">Contact</a></li>   
+                    </ul>
+                
+            </article>
+
+            <article class="column3">
+                <h4>
+                    Social Connect
+                </h4>
+                <img src="./Images/SocialMedia.png" alt="facebook, twitter, instagram, youtube">
+            </article>
+        </section>
+    </footer>
+</body>
+</html>

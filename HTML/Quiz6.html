@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes - Farm4Wind</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <!------------- Navigation Bar --------------->
+    <header>
+        <img src="./Images/Logo.png" alt="logo" class="logo">
+        <h1 class="name">Farm4Wind</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="LessonHome.html">Lessons</a></li>
+                <li class="active"><a href="quizzes.html">Quizzes</a>
+                <ul class="QuizDropdown">
+                 <li> <a href="Quiz1.html" >Quiz1</a>  </li> 
+                 <li> <a href="Quiz2.html" >Quiz2</a>   </li>
+                 <li> <a href="Quiz3.html" >Quiz3</a>  </li>
+                 <li> <a href="Quiz4.html" >Quiz4</a>  </li>
+                 <li> <a href="Quiz5.html" >Quiz5</a>  </li> 
+                 <li> <a href="Quiz6.html" >Quiz6</a>  </li>
+                </ul>
+                </li>
+                <li><a href="Resources.html">Resources</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!------------- Main --------------->
+        <a href="quizzes.html" class="QuizBack">Back to Quiz Selection</a>
+        <table class="Jump">
+        <thead>
+            <tr>
+                <th class="JumpLink" id="JumpTitle">Jump To Question</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <a href="#q1" class="JumpLink"> Question 1</a></td>
+            </tr>
+                        <tr>
+                <td> <a href="#q1" class="JumpLink"> Question 2</a></td>
+            </tr>
+                        <tr>
+                <td> <a href="#q2" class="JumpLink"> Question 3</a></td>
+            </tr>
+                        <tr>
+                <td> <a href="#q3" class="JumpLink"> Question 4</a></td>
+            </tr>
+                        <tr>
+                <td> <a href="#q4" class="JumpLink"> Question 5</a></td>
+            </tr>
+                        <tr>
+                <td> <a href="#q5" class="JumpLink"> Question 6</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="checkbox" id="showAnswer" hidden>
+    <form class="quiz" id="first">
+    <fieldset class="fieldQuestion" id="q1">
+    <Legend class="legQ"> Q1: Which control system ensures the rotor always faces changing wind directions? </Legend>
+    <input type="radio" id="q1A" name="Q1" value="A">
+    <label for="q1A" class="option">
+    Pitch control only
+    </label>
+    <input type="radio" id="q1B" name="Q1" value="B" >
+    <label for="q1B" class="option"> 
+    Torque control    
+    </label>
+    <input type="radio" id="q1C" name="Q1" value="C">    
+    <label for="q1C" class="option">
+    Voltage control
+    </label>
+    <input type="radio" id="q1D" name="Q1" value="D" class="correct">
+    <label for="q1D" class="option"> 
+    Yaw control   
+    </label>
+    </fieldset> 
+    </form>
+    <form class="quiz" id="second">
+    <fieldset class="fieldQuestion" id="q2">
+    <Legend class="legQ"> Q2: An advantage of distributed small-scale wind installations is: </Legend>
+    <input type="radio" id="q2A" name="Q2" value="A">
+    <label for="q2A" class="option">
+    Higher blade tip speeds
+    </label>
+    <input type="radio" id="q2B" name="Q2" value="B"  class="correct">
+    <label for="q2B" class="option"> 
+    Reduced transmission losses   
+    </label>
+    <input type="radio" id="q2C" name="Q2" value="C">    
+    <label for="q2C" class="option">
+    Increased overall environmental impact
+    </label>
+    <input type="radio" id="q2D" name="Q2" value="D">
+    <label for="q2D" class="option"> 
+    Lower noise emissions   
+    </label>
+    </fieldset> 
+    </form>
+    <form class="quiz">
+    <fieldset class="fieldQuestion" id="q3">
+    <Legend class="legQ"> Q3: Which monitoring technique can detect blade damage early? </Legend>
+    <input type="radio" id="q3A" name="Q3" value="A">
+    <label for="q3A" class="option">
+    Monthly stopwatch inspections
+    </label>
+    <input type="radio" id="q3B" name="Q3" value="B" class="correct">
+    <label for="q3B" class="option"> 
+    Thermal imaging and acoustic sensors   
+    </label>
+    <input type="radio" id="q3C" name="Q3" value="C">    
+    <label for="q3C" class="option">
+    Visual checks by helicopter
+    </label>
+    <input type="radio" id="q3D" name="Q3" value="D">
+    <label for="q3D" class="option"> 
+    Oil-level measurement
+    </label>
+    </fieldset> 
+    </form>
+    <form class="quiz">
+    <fieldset class="fieldQuestion" id="q4">
+    <Legend class="legQ"> Q4: What is the primary benefit of direct-drive wind turbines? </Legend>
+    <input type="radio" id="q4A" name="Q4" value="A">
+    <label for="q4A" class="option">
+    Use of a gearbox to increase speed
+    </label>
+    <input type="radio" id="q4B" name="Q4" value="B" >
+    <label for="q4B" class="option"> 
+    Heavier nacelle weight   
+    </label>
+    <input type="radio" id="q4C" name="Q4" value="C">    
+    <label for="q4C" class="option">
+    Requirement for higher wind speeds
+    </label>
+    <input type="radio" id="q4D" name="Q4" value="D" class="correct">
+    <label for="q4D" class="option"> 
+    Simpler design and reduced maintenance  
+    </label>
+    </fieldset> 
+    </form>
+    <form class="quiz">
+    <fieldset class="fieldQuestion" id="q5">
+    <Legend class="legQ"> Q5: Which factor has the greatest impact on a wind farm's levelized cost of energy (LCOE)?</Legend>
+    <input type="radio" id="q5A" name="Q5" value="A">
+    <label for="q5A" class="option">
+    Solar irradiance
+    </label>
+    <input type="radio" id="q5B" name="Q5" value="B" class="correct">
+    <label for="q5B" class="option"> 
+    Capital investment and capacity factor   
+    </label>
+    <input type="radio" id="q5C" name="Q5" value="C" >    
+    <label for="q5C" class="option">
+    Price of natural gas
+    </label>
+    <input type="radio" id="q5D" name="Q5" value="D">
+    <label for="q5D" class="option"> 
+    Water usage   
+    </label>
+    </fieldset> 
+    </form>
+    <form class="quiz">
+    <fieldset class="fieldQuestion" id="q6">
+    <Legend class="legQ"> Q6: How do smart inverters support grid stability for wind farms? </Legend>
+    <input type="radio" id="q6A" name="Q6" value="A" class="correct">
+    <label for="q6A" class="option">
+    They provide reactive-power support and voltage regulation
+    </label>
+    <input type="radio" id="q6B" name="Q6" value="B">
+    <label for="q6B" class="option"> 
+    They export power at a fixed frequency  
+    </label>
+    <input type="radio" id="q6C" name="Q6" value="C" >    
+    <label for="q6C" class="option">
+    They store energy onsite
+    </label>
+    <input type="radio" id="q6D" name="Q6" value="D">
+    <label for="q6D" class="option"> 
+    They physically align the blades  
+    </label>
+    </fieldset> 
+    </form>
+    <label for="showAnswer" class="submit">
+    <span class="Unsubmitted">Submit Answers.</span> 
+    <span class="Submitted">Hide Answers</span>
+    </label>
+    <div class="feedback">
+    Correct answers are highlighted in a darker color!
+    </div>
+
+
+    
+
+
+    <!------------- Footer --------------->
+    <footer>
+        <section>
+            <article class="column1">
+                <h4>
+                    Contact Us
+                </h4>
+                <p> info@farmwind.co.za</p>
+            </article>
+
+            <article class="column2">
+                <h4>
+                    Quick Links
+                </h4>
+                    <ul class="footerlinks">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="LessonHome.html">Lessons</a></li>
+                        <li><a href="quizzes.html">Quizzes</a></li>
+                        <li><a href="Resources.html">Resources</a></li>
+                        <li><a href="Contact.html">Contact</a></li>   
+                    </ul>
+                
+            </article>
+
+            <article class="column3">
+                <h4>
+                    Social Connect
+                </h4>
+                <img src="./Images/SocialMedia.png" alt="facebook, twitter, instagram, youtube">
+            </article>
+        </section>
+    </footer>
+</body>
+</html>

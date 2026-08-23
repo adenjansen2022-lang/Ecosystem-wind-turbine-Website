@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lessons - Farm4Wind</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body class="LessonBody">
+    <!------------- Navigation Bar --------------->
+    <header>
+        <img src="./Images/Logo.png" alt="logo" class="logo">
+        <h1 class="name">Farm4Wind</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="LessonHome.html">Lessons</a></li>
+                <li class="active"><a href="quizzes.html">Quizzes</a>
+                <ul class="QuizDropdown">
+                 <li> <a href="Quiz1.html" >Quiz1</a>  </li> 
+                 <li> <a href="Quiz2.html" >Quiz2</a>   </li>
+                 <li> <a href="Quiz3.html" >Quiz3</a>  </li>
+                 <li> <a href="Quiz4.html" >Quiz4</a>  </li>
+                 <li> <a href="Quiz5.html" >Quiz5</a>  </li> 
+                 <li> <a href="Quiz6.html" >Quiz6</a>  </li>
+                </ul>
+                </li>
+                <li><a href="Resources.html">Resources</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Divide page into seperate body-->
+    <div class="lessonBody2">
+         <!--Second navigation bar for the lessons-->
+        <nav id="lessonNavigation">
+            <h2 style="font-weight: bold;">Select a lesson</h2>
+            <button onclick="document.location='lesson1.html'" id="activelesson">1. Intoduction to renewable energy</button>
+            <button onclick="document.location='lesson2.html'">2. What is Wind energy</button>
+            <button onclick="document.location='lesson3.html'">3. Benefits of Wind Farming</button>
+            <button onclick="document.location='lesson4.html'">4. Economic benefits</button>
+            <button onclick="document.location='lesson5.html'">5. Challenges and Limitations</button>
+            <button onclick="document.location='lesson6.html'">6. Future of Wind Energy</button>
+        </nav>
+        
+        <!------------- Main --------------->
+        <main class="LessonsPage">
+            <article class="article1">
+                <img src="./Images/renewableEnergy.jpg" alt="Image of renewable energy" class="lessonHeadingImage">
+                <fieldset>
+                        <legend class="mainH1">Intoduction to renewable energy</legend>
+                        <p>
+                        
+                            Renewable energy is energy that is naturally created or made by nature, it is a natural resource, and it can be continuously replenished(Sørensen, 2004). 
+                            Natural resources such as sunlight, wind, water/waves, geothermal heat and organic materials like compost which are used to generate solar power, wind power 
+                            and hydro power(Sørensen, 2004). All of this is used to generate electricity and much more, while non-renewable resources  such as fossil fuels like coal and 
+                            oil can only be created every few hundred or even million years(Sørensen, 2004). 
+                            <br>
+                            Renewable resources are different from non-renewable resources as renewable resources can continuously carry on being replenished, it barely produces emissions 
+                            into the air, it is very sustainable, and it has a minimal impact on the environment(Tugcu, Ozturk and Aslan, 2012).While non-renewable energy is not replenishable 
+                            and can only be produced by the earth every one hundred to an million years, it does produce emissions such as High CO2 and pollutants, it does not last forever 
+                            and it does affect the environment such as climate change(Tugcu, Ozturk and Aslan, 2012). 
+                            <br>
+                            It is called renewable energy because it is continuously replenished by natural, as the sun rises every morning, waves are constantly roaring, rivers are flowing, 
+                            winds are blowing and plants regrow(Sørensen, 2004).It is important to us as it helps us fight climate change, improves the quality of the air, gives individuals
+                            energy independence, saves money and supports economic growth(Sørensen, 2004). 
+                        </p>
+                    </fieldset>
+            </article>      
+        </main>
+    </div>
+
+
+    <!------------- Footer --------------->
+    <footer>
+        <section>
+            <article class="column1">
+                <h4>
+                    Contact Us
+                </h4>
+                <p> info@farmwind.co.za</p>
+            </article>
+
+            <article class="column2">
+                <h4>
+                    Quick Links
+                </h4>
+                    <ul class="footerlinks">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="LessonHome.html">Lessons</a></li>
+                        <li><a href="quizzes.html">Quizzes</a></li>
+                        <li><a href="Resources.html">Resources</a></li>
+                        <li><a href="Contact.html">Contact</a></li>   
+                    </ul>
+                
+            </article>
+
+            <article class="column3">
+                <h4>
+                    Social Connect
+                </h4>
+                <img src="./Images/SocialMedia.png" alt="facebook, twitter, instagram, youtube">
+            </article>
+        </section>
+    </footer>
+</body>
+</html>

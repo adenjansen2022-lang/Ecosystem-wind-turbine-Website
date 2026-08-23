@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Farm4Wind</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <!------------- Navigation Bar --------------->
+    <header>
+        <img src="./Images/Logo.png" alt="logo" class="logo">
+        <h1 class="name">Farm4Wind</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="LessonHome.html">Lessons</a></li>
+                <li class="active"><a href="quizzes.html">Quizzes</a>
+                <ul class="QuizDropdown">
+                 <li> <a href="Quiz1.html">Quiz1</a></li> 
+                 <li> <a href="Quiz2.html">Quiz2</a></li>
+                 <li> <a href="Quiz3.html">Quiz3</a></li>
+                 <li> <a href="Quiz4.html">Quiz4</a></li>
+                 <li> <a href="Quiz5.html">Quiz5</a></li> 
+                 <li> <a href="Quiz6.html">Quiz6</a></li>
+                </ul>
+                </li>
+                <li><a href="Resources.html">Resources</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!------------- Main --------------->
+    <div class="contactbody">
+        <h2>How would you like to contact Farm 4 Wind?</h2>
+
+        <!--insert form-->
+        <form action="">
+            <label for="fname">First name:</label> <br>
+            <input type="text" id="fname" name="fname"> <br> <br>
+
+            <label for="lname">Last name:</label> <br>
+            <input type="text" id="lname" name="lname"> <br><br>
+
+            <label for="Jtitle">Job title:</label> <br>
+            <input type="text" id="Jtitle" name="Jtitle"> <br><br>
+
+            <label for="phone">Phone:</label> <br>
+            <input type="text" id="phone" name="phone"> <br><br>
+
+            <label for="c/r">Country/Region:</label> <br>
+            <input type="text" id="c/r" name="c/r"> <br><br>
+
+            <p>What is the reason for this request?</p>
+            <input type="radio" id="question" name="reason" value="Question" class="DefaultRadio">
+            <label for="question">I have a Question</label><br>
+
+            <input type="radio" id="request" name="reason" value="Request" class="DefaultRadio">
+            <label for="Request">I have a Request</label><br>
+
+            <input type="radio" id="complaint" name="reason" value="Complaint" class="DefaultRadio">
+            <label for="Complaint">I have a Complaint</label><br>
+
+            <input type="radio" id="quizzes" name="reason" value="Quizzes" class="DefaultRadio">
+            <label for="Quizzes">I have a question about the Quizzes</label><br>
+
+            <p>What is the best way to contact you?</p>
+            <input type="radio" id="phone" name="contact" value="Phone" class="DefaultRadio">
+            <label for="Phone">Via Phone</label><br>
+
+            <input type="radio" id="email" name="contact" value="Email" class="DefaultRadio">
+            <label for="Email">Via Email</label><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <section class="call">
+            <h3>Chat with us now</h3>
+            <p>Call us: 082-832-9473</p>
+            <p>Email us: info@farm4wind.co.za</p>
+        
+        </section>
+
+        <section class="social">
+            <h3>Get in touch with us</h3>
+            <p>Facebook: farm4wind_learning</p>
+            <p>Instagram: farm4wind@learning</p>
+            <p>Twitter: _farm4wind_</p>
+        </section>
+
+        <section class="location">
+            <h3>Fisit us</h3>
+            <p>128 Turbine Trail <br>
+                Greenfield Heights, <br>
+                Limpopo
+            </p>
+        </section>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+    <!------------- Footer --------------->
+    <footer>
+        <section>
+            <article class="column1">
+                <h4>
+                    Contact Us
+                </h4>
+                <p> info@farmwind.co.za</p>
+            </article>
+
+            <article class="column2">
+                <h4>
+                    Quick Links
+                </h4>
+                    <ul class="footerlinks">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="LessonHome.html">Lessons</a></li>
+                        <li><a href="quizzes.html">Quizzes</a></li>
+                        <li><a href="Resources.html">Resources</a></li>
+                        <li><a href="Contact.html">Contact</a></li>   
+                    </ul>
+                
+            </article>
+
+            <article class="column3">
+                <h4>
+                    Social Connect
+                </h4>
+                <img src="./Images/SocialMedia.png" alt="facebook, twitter, instagram, youtube">
+            </article>
+        </section>
+    </footer>
+</body>
+</html>
